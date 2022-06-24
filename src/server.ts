@@ -54,7 +54,7 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
   // Root Endpoint
   // Displays a simple message to the user
   app.get("/", async (req, res) => {
-    res.send("try GET /filteredimage?image_url={{}}");
+    res.send("try GET /filteredimage?image_url={{image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg}}");
   });
 
   // Start the Server
